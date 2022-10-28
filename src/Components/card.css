@@ -1,0 +1,103 @@
+.repo-card{
+    height: 200px;
+    margin-top: 10px;
+    width: 1150px;
+}
+.card{
+    height: 170px;
+ 
+}
+img{
+    height: 130px;
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.dropdown{
+    float: right;
+}
+.row{
+    background-color: lightgray;
+   /* border: 1px solid red; */
+
+   margin-top: 10px;
+}
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .repo-title{
+    width: 700px;
+    /* border: 1px solid blue; */
+    float: right;
+    margin-right: 100px;
+  }
+  .row-1{
+    float: right;
+    height: 150px;
+    width: 800px;
+
+    /* border: 1px solid yellow; */
+  }
+  .repo-stats{
+    display: flex;
+    
+  }
+  .repo-issues{
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+.repo-description{
+    /* border: 1px solid green; */
+    height: 120px;
+    width: 800px;
+}
+
+
+.dropbtn {
+    background-color: #555555;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding : 6px;
+    width: 80px;
+   
+    border: none;
+  }
+  
+  .dropdown {
+    margin-left: 0px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ 
